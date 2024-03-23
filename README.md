@@ -2,10 +2,13 @@
 Project 2/3 demonstrating my understanding of the HTML markup language.<br>
 
 - Focus of This Project: **HTML Forms**
-- Theme: **Early 2000's Cinema**
+- Theme: **Online Service Registration Form**
 
 ### About HTML Forms
---Add information--
+Fundamental part of HTML is being able to develop forms which can later be used to gather data.
+This data can then be stored in a database and used to improve the product or service to meet consumer demands.
+This repository serves as an example form developed in HTML.
+This form can later be improved to demonstrate good practices in gathering and storing user data.
 
 **Useful Links for HTML Forms:**
 - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Learn/Forms/Your_first_form)
