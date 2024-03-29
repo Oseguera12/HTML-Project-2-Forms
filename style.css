@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville";
+}
+
+body {
+  background-color: gray;
+  
+  color: #FBFBFB;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+section {
+  padding: 5vh 7vw;
+  height:fit-content
+}
+
+hr {
+  margin: 20px 0vw;
+}
+
+#home {
+  background-color: #1251A3;
+  min-height: 46.5rem;
+}
+
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#home header {
+  font-size: 2.375rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+#home img {
+  width: 36px;
+  height: 36px;
+}
+
+#about {
+  background-color: #010304;
+}
+
+#projects {
+  background-color: #FBFBFB;
+  color: #010304;
+}
+
+#projects figure {
+  background-color: #010304;
+  height: 135px;
+  margin: 16px 0vw;
+  border-radius: 10px;
+}
+
+#projects button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+  padding: 4px 2px;
+  background-color: #FBFBFB;
+  border-color: #010304;
+  border-width: 2px;
+  border-radius: 5px;
+  color: #010304;
+
+  text-align: center;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#contact {
+  background: linear-gradient(-45deg, #1251A3, #00C2CE);
+  background-attachment: fixed;
+  background-size: 800% 800%;
+  animation: gradient 15s ease infinite;
+}
+
+#contact li {
+  margin: 8px 5vw;
+}
+
+footer {
+  background-color: #010304;
+
+  padding: 2vh 5vw;
+}
+
+footer p {
+  margin: 8px 0px;
+}
+
+footer img {
+  width: 36px;
+  height: 36px;
+}
+
+@keyframes gradient {
+  0%{background-position:50% 0%}
+  50%{background-position:50% 100%}
+  100%{background-position:50% 0%}
+}
